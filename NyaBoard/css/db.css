@@ -1,0 +1,24 @@
+/* 在 :root 里面定义变量 */
+:root {
+    --spinner-bg-light: #fff; /* 浅色模式背景色 */
+    --spinner-bg-dark: #333; /* 深色模式背景色 */
+  }
+  
+  /* 默认背景颜色基于浅色模式 */
+  .spinner-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--spinner-bg-light);
+    z-index: 10000; /* 确保加载动画在最上层 */
+  }
+  
+  /* 当存在 .mdui-theme-layout-dark 类时，改变背景颜色为深色模式 */
+  .mdui-theme-layout-dark .spinner-container {
+    background-color: var(--spinner-bg-dark);
+  }
