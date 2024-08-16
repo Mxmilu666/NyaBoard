@@ -1,10 +1,10 @@
-# dongyanmio-is-so-cute
+# NyaBoard
 
-研磨 可爱
+## 此项目正在使用 VUE 重构
 
 ## ❓ 这是什么
 
-~~NyaBoard~~ 是 [php-openbmclapi](https://github.com/AppleBlockTeam/php-openbmclapi) 的插件，也是基于 [OpenBMCLAPI-Dashboard-API](https://github.com/UNi-Network0/OpenBMCLAPI-Dashboard-APIDocs) 扩展而来的面板，理论上可以完全适配基于 [OpenBMCLAPI-Dashboard-API](https://github.com/UNi-Network0/OpenBMCLAPI-Dashboard-APIDocs) 的任何 openbmclapi 节点端 (但是需要作者自己适配就是了)
+NyaBoard 是 [php-openbmclapi](https://github.com/AppleBlockTeam/php-openbmclapi) 的插件，也是基于 [OpenBMCLAPI-Dashboard-API](https://github.com/UNi-Network0/OpenBMCLAPI-Dashboard-APIDocs) 扩展而来的面板，理论上可以完全适配基于 [OpenBMCLAPI-Dashboard-API](https://github.com/UNi-Network0/OpenBMCLAPI-Dashboard-APIDocs) 的任何 openbmclapi 节点端 (但是需要作者自己适配就是了)
 
 ## ⚙️ 部署
 
